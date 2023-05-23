@@ -1,0 +1,30 @@
+{
+	"name": "inputSalesjson",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "in.json",
+				"folderPath": "input",
+				"container": "adfcon"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"product_id": {
+					"type": "string"
+				},
+				"sales_revenue": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
