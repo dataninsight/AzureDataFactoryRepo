@@ -13,7 +13,16 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
+				"userProperties": [
+					{
+						"name": "Source",
+						"value": "adfcon/input/in.json"
+					},
+					{
+						"name": "Destination",
+						"value": "webdevelopment/webStore/rawData/onlineSales/sales.json"
+					}
+				],
 				"typeProperties": {
 					"source": {
 						"type": "JsonSource",
