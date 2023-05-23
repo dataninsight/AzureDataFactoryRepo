@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "CopyDataActivity",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -14,7 +14,6 @@
 					"secureInput": false
 				},
 				"userProperties": [
-					null,
 					{
 						"name": "Source",
 						"value": "adfcon/input/data.txt"
@@ -22,6 +21,10 @@
 					{
 						"name": "Destination",
 						"value": "adfcon/output/abcd.txt"
+					},
+					{
+						"name": "CopyDataActivity",
+						"value": "CopyDataActivity"
 					}
 				],
 				"typeProperties": {
