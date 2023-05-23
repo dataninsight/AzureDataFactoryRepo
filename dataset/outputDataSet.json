@@ -1,0 +1,20 @@
+{
+	"name": "outputDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "sales.json",
+				"folderPath": "webStore/rawData/onlineSales",
+				"fileSystem": "webdevelopment"
+			}
+		},
+		"schema": {}
+	}
+}
