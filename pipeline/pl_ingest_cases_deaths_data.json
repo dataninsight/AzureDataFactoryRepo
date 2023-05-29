@@ -52,7 +52,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"relativeURL": {
-								"value": "@pipeline().parameters.sourcerelativeURL",
+								"value": "@variables('sourcerelativeURL')",
 								"type": "Expression"
 							}
 						}
@@ -64,7 +64,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"fileName": {
-								"value": "@pipeline().parameters.sinkfileName",
+								"value": "@variables('sinkfileName')",
 								"type": "Expression"
 							}
 						}
@@ -72,13 +72,13 @@
 				]
 			}
 		],
-		"parameters": {
+		"variables": {
 			"sourcerelativeURL": {
-				"type": "string",
+				"type": "String",
 				"defaultValue": "hospital_admissions.csv"
 			},
 			"sinkfileName": {
-				"type": "string",
+				"type": "String",
 				"defaultValue": "hospital_admissions.csv"
 			}
 		},
