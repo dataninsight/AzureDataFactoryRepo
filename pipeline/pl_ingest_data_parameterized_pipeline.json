@@ -62,10 +62,12 @@
 		],
 		"parameters": {
 			"relativeURL": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "testing.csv"
 			},
 			"fileName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "testing.csv"
 			}
 		},
 		"annotations": []
