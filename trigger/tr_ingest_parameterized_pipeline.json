@@ -1,0 +1,17 @@
+{
+	"name": "tr_ingest_parameterized_pipeline",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2023-05-29T06:00:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
