@@ -74,10 +74,12 @@
 		],
 		"parameters": {
 			"sourcerelativeURL": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "hospital_admissions.csv"
 			},
 			"sinkfileName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "hospital_admissions.csv"
 			}
 		},
 		"annotations": []
