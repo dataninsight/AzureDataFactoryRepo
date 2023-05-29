@@ -7,7 +7,7 @@
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
 			"blobPathBeginsWith": "/metareportcontainer/blobs/population_by_age.tsv.gz",
-			"ignoreEmptyBlobs": false,
+			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/7427803d-97a5-4cb2-9973-974a20bf6aa5/resourceGroups/ShraddhaMetaDataDrivenResource/providers/Microsoft.Storage/storageAccounts/metareportingsa",
 			"events": [
 				"Microsoft.Storage.BlobCreated"
